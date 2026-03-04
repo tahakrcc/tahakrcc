@@ -1,28 +1,44 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7E018&center=true&vCenter=true&width=435&lines=Hi+there,+I'm+TK!+👋;Full+Stack+Developer;Fenerbahçe+Fan+💛💙;Building+modern+web+%26+mobile+apps" alt="Typing SVG" />
+  <img src="https://raw.githubusercontent.com/tahakrcc/tahakrcc/main/premium-banner.png" width="800" alt="Premium Banner" />
+  <br/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7E018&center=true&vCenter=true&width=500&lines=Welcome+to+my+digital+garden;Building+the+Future+with+Code;Fenerbahçe+Spirit+💛💙" alt="Typing SVG" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=tahakrcc&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15" alt="Trophies" />
 </div>
 
 <hr />
 
-### 🚀 About Me
-- 🔭 Working on **Hairlogy Backend** & **Real-time Chat Apps**.
-- 📱 Developing mobile solutions with **Flutter & Dart**.
-- ⚽ Passionate about **Fenerbahçe SK**.
-- ⚡ Fun fact: I love minimalist designs and gold watches. ⌚
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>👨‍💻 About Me</h3>
+      <ul>
+        <li>🔭 Working on: <b>Hairlogy Backend</b></li>
+        <li>📱 Mobile Dev: <b>Flutter & Dart</b></li>
+        <li>⚽ Lifestyle: <b>Fenerbahçe Enthusiast</b></li>
+        <li>⚡ Focus: <b>Real-time & High Scale Apps</b></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📊 GitHub Activity</h3>
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=tahakrcc&theme=tokyonight&area=true&hide_border=true&bg_color=001529&color=fadb14" width="100%" alt="Activity Graph" />
+    </td>
+  </tr>
+</table>
+
+### 🛠 Tech Stack & Tools
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js,nodejs,react,express,mongodb,dart,flutter,html,css,git,github,vscode,postman,tailwind,docker,aws,linux,solidity" />
+</p>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tahakrcc&show_icons=true&theme=tokyonight&bg_color=001529&title_color=fadb14&text_color=ffffff&icon_color=fadb14&border_color=fadb14" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tahakrcc&layout=compact&theme=tokyonight&bg_color=001529&title_color=fadb14&text_color=ffffff&icon_color=fadb14&border_color=fadb14" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=tahakrcc&show_icons=true&theme=tokyonight&bg_color=001529&title_color=fadb14&text_color=ffffff&icon_color=fadb14&border_color=fadb14" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tahakrcc&layout=compact&theme=tokyonight&bg_color=001529&title_color=fadb14&text_color=ffffff&icon_color=fadb14&border_color=fadb14" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tahakrcc&theme=tokyonight&background=001529&fire=fadb14&ring=fadb14&sideNums=ffffff&sideLabels=ffffff&dates=ffffff" alt="GitHub Streak" />
-</div>
-
-### 🛠 Tech Stack
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=js,nodejs,react,express,mongodb,dart,flutter,html,css,git,github,vscode,postman,tailwind" />
-</div>
+<hr />
 
 ### 🐍 Contribution Snake
 <picture>
@@ -35,9 +51,9 @@
 
 <div align="center">
   <a href="mailto:taha7krc@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://linkedin.com/in/tahakrcc">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </div>
