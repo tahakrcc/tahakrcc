@@ -1,11 +1,7 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tahakrcc/tahakrcc/main/premium-banner.png" width="500" alt="Premium Banner" />
+  <img src="https://raw.githubusercontent.com/tahakrcc/tahakrcc/main/premium-banner.png" width="400" alt="Premium Banner" />
   <br/>
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7E018&center=true&vCenter=true&width=500&lines=Welcome+to+my+digital+garden;Building+the+Future+with+Code;Fenerbahçe+Spirit+💛💙" alt="Typing SVG" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tahakrcc&theme=algolia&no-bg=true&no-frame=true&margin-w=10&column=6" alt="Trophies" />
 </div>
 
 <hr />
@@ -34,8 +30,8 @@
 </p>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=tahakrcc&show_icons=true&theme=algolia&border_color=1e4877" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tahakrcc&layout=compact&theme=algolia&border_color=1e4877" />
+  <img height="180em" src="https://github-readme-stats-fast.vercel.app/api?username=tahakrcc&show_icons=true&theme=algolia&border_color=1e4877" />
+  <img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=tahakrcc&layout=compact&theme=algolia&border_color=1e4877" />
 </div>
 
 <br/>
