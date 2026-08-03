@@ -50,9 +50,9 @@ I am a **Software Engineer** specializing in cross-platform mobile application d
 ### 📊 Engineering Metrics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=tahakrcc&show_icons=true&theme=tokyo-night&border_radius=8&bg_color=0D1117&title_color=4A90E2&icon_color=4A90E2&hide_border=true&count_private=true" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tahakrcc&layout=compact&theme=tokyo-night&border_radius=8&bg_color=0D1117&title_color=4A90E2&hide_border=true&hide=html,css" alt="Top Languages" />
+  <img height="175" src="https://github-readme-stats-fast.vercel.app/api?username=tahakrcc&show_icons=true&theme=tokyo-night&border_radius=8&bg_color=0D1117&title_color=4A90E2&icon_color=4A90E2&hide_border=true&count_private=true" alt="GitHub Stats" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img height="175" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=tahakrcc&layout=compact&theme=tokyo-night&border_radius=8&bg_color=0D1117&title_color=4A90E2&hide_border=true&hide=html,css" alt="Top Languages" />
 </div>
 
 <br/>
