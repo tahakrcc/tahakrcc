@@ -3,7 +3,7 @@
   <a href="./README.en.md"><img src="https://img.shields.io/badge/EN-English-373833?style=for-the-badge&amp;labelColor=161715" alt="English" /></a>
 </p>
 
-<img src="./assets/tk-profile.tr.svg" width="100%" alt="Taha Göktuğ Karaca — TK. Mobil, web ve yapay zekâ geliştiricisi. React Native, Expo, Flutter, Java, Spring Boot, Python, Docker. Hamamböceği tüm profil üzerinde hareket eder." />
+<img src="./assets/tk-profile-roam-v2.tr.svg" width="100%" alt="Taha Göktuğ Karaca — TK. Mobil, web ve yapay zekâ geliştiricisi. React Native, Expo, Flutter, Java, Spring Boot, Python, Docker. Hamamböceği tüm profil üzerinde hareket eder." />
 
 <p align="center">
   <a href="https://www.tahakaraca.com/"><img src="https://img.shields.io/badge/PORTFÖY-TAHAKARACA.COM-f4d326?style=for-the-badge&amp;labelColor=161715" alt="Portföy — tahakaraca.com" /></a>
