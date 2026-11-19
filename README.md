@@ -1,64 +1,13 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/tahakrcc/tahakrcc/main/premium-banner.png" width="100%" alt="Taha Karaca Banner" />
-  
-  <br/><br/>
-  
-  <h1>Taha Karaca</h1>
-  <p><b>Software Engineer | Creative Developer | Mobile & Scalable Systems Specialist</b></p>
-  
-  <br/>
+<p align="right">
+  <a href="./README.tr.md"><img src="https://img.shields.io/badge/TR-Türkçe-373833?style=for-the-badge&amp;labelColor=161715" alt="Türkçe" /></a>
+  <a href="./README.md"><img src="https://img.shields.io/badge/EN-English-f4d326?style=for-the-badge&amp;labelColor=161715" alt="English — selected" /></a>
+</p>
 
-  <a href="https://github.com/tahakrcc">
-    <img src="https://img.shields.io/badge/GitHub-tahakrcc-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="mailto:taha7krc@gmail.com">
-    <img src="https://img.shields.io/badge/Email-taha7krc%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/tahakrcc">
-    <img src="https://img.shields.io/badge/LinkedIn-tahakrcc-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/tahakrcc">
-    <img src="https://img.shields.io/badge/X-@tahakrcc-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
-  </a>
-</div>
+<img src="./assets/tk-profile-tech-v4.svg" width="100%" alt="Taha Göktuğ Karaca — TK. Mobile, web and AI developer. React Native, Expo, Flutter, Java, Spring Boot, Python, Docker. Animated cockroach travels across the profile." />
 
-<br/>
-<hr />
-<br/>
-
-### 👨‍💻 Profile Overview
-
-I am a **Software Engineer** specializing in cross-platform mobile application development and scalable cloud backends. With a strong focus on high performance, intuitive UX, and clean architecture, I engineer robust digital products from design to production.
-
-- 🔭 **Focus:** Architecting resilient backend microservices & cross-platform mobile apps.
-- 📱 **Mobile Engineering:** Custom UI & complex client logic with **Flutter & Dart**.
-- ⚡ **Backend & Distributed Systems:** Real-time pipelines, RESTful APIs, and databases using **Node.js, Express, PostgreSQL & MongoDB**.
-- 🛠 **DevOps & Tooling:** Containerization with **Docker**, CI/CD workflows, and **Git**.
-
-<br/>
-
-### 🛠 Core Technologies
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=flutter,dart,ts,nodejs,express,react,nextjs,tailwind,postgres,mongodb,firebase,docker,git,github" alt="Tech Stack" />
-  </a>
-</div>
-
-<br/>
-
-### 📊 Engineering Metrics
-
-<div align="center">
-  <img height="175" src="https://github-readme-stats-fast.vercel.app/api?username=tahakrcc&show_icons=true&theme=tokyo-night&border_radius=8&bg_color=0D1117&title_color=4A90E2&icon_color=4A90E2&hide_border=true&count_private=true" alt="GitHub Stats" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img height="175" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=tahakrcc&layout=compact&theme=tokyo-night&border_radius=8&bg_color=0D1117&title_color=4A90E2&hide_border=true&hide=html,css" alt="Top Languages" />
-</div>
-
-<br/>
-<hr />
-<br/>
-
-<div align="center">
-  <sub>© Taha Karaca. All rights reserved.</sub>
-</div>
+<p align="center">
+  <a href="https://www.tahakaraca.com/"><img src="https://img.shields.io/badge/PORTFOLIO-TAHAKARACA.COM-f4d326?style=for-the-badge&amp;labelColor=161715&amp;logoColor=f1f0e9" alt="Portfolio — tahakaraca.com" /></a>
+  <a href="https://www.linkedin.com/in/tahakrcc/"><img src="https://img.shields.io/badge/LINKEDIN-TAHAKRCC-f4d326?style=for-the-badge&amp;labelColor=161715" alt="LinkedIn — tahakrcc" /></a>
+  <a href="https://www.tahakaraca.com/"><img src="https://img.shields.io/badge/CONTACT-LET'S_TALK-f4d326?style=for-the-badge&amp;labelColor=161715" alt="Visit my portfolio to get in touch" /></a>
+  <a href="https://x.com/tahakrcc"><img src="https://img.shields.io/badge/X-TAHAKRCC-f4d326?style=for-the-badge&amp;labelColor=161715&amp;logo=x&amp;logoColor=f1f0e9" alt="X — tahakrcc" /></a>
+</p>
