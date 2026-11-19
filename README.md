@@ -1,50 +1,55 @@
+<p align="right">
+  <a href="./README.md"><img src="https://img.shields.io/badge/TR-Türkçe-f4d326?style=for-the-badge&amp;labelColor=161715" alt="Türkçe — seçili" /></a>
+  <a href="./README.en.md"><img src="https://img.shields.io/badge/EN-English-373833?style=for-the-badge&amp;labelColor=161715" alt="English" /></a>
+</p>
+
 <p align="center">
   <a href="https://www.tahakaraca.com/">
-    <img src="./assets/tk-hero.svg" width="100%" alt="TK — Taha Göktuğ Karaca. Software Engineer / Creative Developer. Mobile, full stack and intelligent systems." />
+    <img src="./assets/tk-hero.tr.svg" width="100%" alt="TK — Taha Göktuğ Karaca. Mobil uygulamalar, web ve akıllı sistemler. Sağda elektrik efektli hareketli TK logosu." />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.tahakaraca.com/"><img src="https://img.shields.io/badge/PORTFOLIO-TAHAKARACA.COM-f4d326?style=for-the-badge&amp;labelColor=161715&amp;logoColor=f1f0e9" alt="Portfolio — tahakaraca.com" /></a>
+  <a href="https://www.tahakaraca.com/"><img src="https://img.shields.io/badge/PORTFÖY-TAHAKARACA.COM-f4d326?style=for-the-badge&amp;labelColor=161715" alt="Portföy — tahakaraca.com" /></a>
   <a href="https://www.linkedin.com/in/tahakrcc/"><img src="https://img.shields.io/badge/LINKEDIN-TAHAKRCC-f4d326?style=for-the-badge&amp;labelColor=161715" alt="LinkedIn — tahakrcc" /></a>
-  <a href="mailto:taha7krc@gmail.com"><img src="https://img.shields.io/badge/EMAIL-LET'S_TALK-f4d326?style=for-the-badge&amp;labelColor=161715" alt="Email — taha7krc@gmail.com" /></a>
+  <a href="https://www.tahakaraca.com/"><img src="https://img.shields.io/badge/İLETİŞİM-PORTFÖY-f4d326?style=for-the-badge&amp;labelColor=161715" alt="İletişim için portföyümü ziyaret et" /></a>
   <a href="https://x.com/tahakrcc"><img src="https://img.shields.io/badge/X-TAHAKRCC-f4d326?style=for-the-badge&amp;labelColor=161715&amp;logo=x&amp;logoColor=f1f0e9" alt="X — tahakrcc" /></a>
 </p>
 
 <br />
 
-### The engineer behind TK.
+### TK'nın arkasındaki geliştirici.
 
-I'm **Taha Göktuğ Karaca**, a software engineer building products across **mobile, web and intelligent systems**. I care about the whole experience: how it looks, how it works and how it performs in production.
+Ben **Taha Göktuğ Karaca**. **Mobil, web ve akıllı sistemler** alanlarında ürünler geliştiriyorum. Görünümünden çalışma biçimine ve canlı ortam performansına kadar deneyimin her aşamasına önem veriyorum.
 
-- **Mobile** — cross-platform experiences with React Native, Expo and Flutter.
-- **Full stack** — interfaces, APIs and real-time backends that work together.
-- **Applied AI** — computer vision and tools that turn data into useful decisions.
-- **Beyond the usual** — interactive 3D experiences and hybrid quantum optimization.
-
-<br />
-
-### My toolkit.
-
-<img src="./assets/tk-stack.svg" width="100%" alt="Mobile: React Native, Expo, Flutter, Dart, Kotlin. Full stack: React, Next.js, TypeScript, Java, Spring Boot, Node.js, PostgreSQL, MongoDB. AI and systems: Python, computer vision, Docker, Git, CI/CD, QUBO and QAOA." />
+- **Mobil** — React Native, Expo ve Flutter ile platformlar arası uygulamalar.
+- **Full stack** — birlikte çalışan arayüzler, API'ler ve gerçek zamanlı servisler.
+- **Uygulamalı yapay zekâ** — görüntü işleme ve veriyi kullanışlı kararlara dönüştüren araçlar.
+- **Keşfettiklerim** — etkileşimli 3D deneyimler ve hibrit kuantum optimizasyonu.
 
 <br />
 
-### Things I build.
+### Kullandığım teknolojiler.
 
-| Project | Focus |
+<img src="./assets/tk-stack.tr.svg" width="100%" alt="Mobil: React Native, Expo, Flutter, Dart, Kotlin. Full stack: React, Next.js, TypeScript, Java, Spring Boot, Node.js, PostgreSQL, MongoDB. Yapay zekâ ve sistemler: Python, görüntü işleme, Docker, Git, CI/CD, QUBO ve QAOA." />
+
+<br />
+
+### Geliştirdiğim projeler.
+
+| Proje | Odak |
 | :--- | :--- |
-| **[Sarı Araba Online](https://sariaraba.com.tr)** | A mobile car marketplace simulation with interactive driving and 3D experiences. |
-| **Yaprak** | Agricultural decision support connecting field observations, AI and expert review. |
-| **SentinelTK** | Fraud detection and user protection with browser tooling and AI. |
-| **Lunar Landing Site Navigator** | Lunar mission planning with energy, communication and hybrid optimization. |
+| **[Sarı Araba Online](https://sariaraba.com.tr)** | Etkileşimli sürüş ve 3D deneyimler içeren mobil araç pazarı simülasyonu. |
+| **Yaprak** | Saha gözlemlerini, yapay zekâyı ve uzman değerlendirmesini birleştiren tarımsal karar desteği. |
+| **SentinelTK** | Tarayıcı araçları ve yapay zekâ ile dolandırıcılık tespiti ve kullanıcı güvenliği. |
+| **Lunar Landing Site Navigator** | Enerji, iletişim ve hibrit optimizasyon odaklı Ay görevi planlaması. |
 
-<p align="right"><a href="https://www.tahakaraca.com/">Explore my work ↗</a></p>
+<p align="right"><a href="https://www.tahakaraca.com/">Tüm çalışmalarımı keşfet ↗</a></p>
 
 <br />
 
 <p align="center">
   <a href="https://www.tahakaraca.com/">
-    <img src="./assets/tk-footer.svg" width="100%" alt="TK — Build with intent. Ship with care." />
+    <img src="./assets/tk-footer.tr.svg" width="100%" alt="TK — Fikirden gerçeğe. Özenle geliştir." />
   </a>
 </p>
