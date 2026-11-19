@@ -35,16 +35,7 @@ I'm **Taha Göktuğ Karaca**, a software engineer building products across **mob
 
 <br />
 
-### Things I build.
-
-| Project | Focus |
-| :--- | :--- |
-| **[Sarı Araba Online](https://sariaraba.com.tr)** | A mobile car marketplace simulation with interactive driving and 3D experiences. |
-| **Yaprak** | Agricultural decision support connecting field observations, AI and expert review. |
-| **SentinelTK** | Fraud detection and user protection with browser tooling and AI. |
-| **Lunar Landing Site Navigator** | Lunar mission planning with energy, communication and hybrid optimization. |
-
-<p align="right"><a href="https://www.tahakaraca.com/">Explore my work ↗</a></p>
+<a href="https://www.tahakaraca.com/"><img src="./assets/tk-signature.svg" width="100%" alt="Idea. Code. Impact. — TK. Explore my work." /></a>
 
 <br />
 

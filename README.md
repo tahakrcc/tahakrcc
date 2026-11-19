@@ -35,16 +35,7 @@ Ben **Taha Göktuğ Karaca**. **Mobil, web ve akıllı sistemler** alanlarında 
 
 <br />
 
-### Geliştirdiğim projeler.
-
-| Proje | Odak |
-| :--- | :--- |
-| **[Sarı Araba Online](https://sariaraba.com.tr)** | Etkileşimli sürüş ve 3D deneyimler içeren mobil araç pazarı simülasyonu. |
-| **Yaprak** | Saha gözlemlerini, yapay zekâyı ve uzman değerlendirmesini birleştiren tarımsal karar desteği. |
-| **SentinelTK** | Tarayıcı araçları ve yapay zekâ ile dolandırıcılık tespiti ve kullanıcı güvenliği. |
-| **Lunar Landing Site Navigator** | Enerji, iletişim ve hibrit optimizasyon odaklı Ay görevi planlaması. |
-
-<p align="right"><a href="https://www.tahakaraca.com/">Tüm çalışmalarımı keşfet ↗</a></p>
+<a href="https://www.tahakaraca.com/"><img src="./assets/tk-signature.tr.svg" width="100%" alt="Fikir. Kod. Etki. — TK. Çalışmalarımı keşfet." /></a>
 
 <br />
 
