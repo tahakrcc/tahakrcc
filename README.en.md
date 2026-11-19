@@ -35,7 +35,9 @@ I'm **Taha Göktuğ Karaca**, a software engineer building products across **mob
 
 <br />
 
-<a href="https://www.tahakaraca.com/"><img src="./assets/tk-signature.svg" width="100%" alt="Idea. Code. Impact. — TK. Explore my work." /></a>
+<img src="./assets/tk-bug.svg" width="100%" alt="TK cockroach: carries code, gets shocked; a replacement arrives beside the body." />
+
+Autoplays in the README. **For clicking, the speech bubble and persistent bodies,** download the [demo file](./docs/mascot.html) and open it in a browser.
 
 <br />
 

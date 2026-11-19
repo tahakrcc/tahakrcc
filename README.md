@@ -35,7 +35,9 @@ Ben **Taha Göktuğ Karaca**. **Mobil, web ve akıllı sistemler** alanlarında 
 
 <br />
 
-<a href="https://www.tahakaraca.com/"><img src="./assets/tk-signature.tr.svg" width="100%" alt="Fikir. Kod. Etki. — TK. Çalışmalarımı keşfet." /></a>
+<img src="./assets/tk-bug.tr.svg" width="100%" alt="TK hamamböceği: kod taşır, elektriklenir; ölüsü kalırken yenisi gelir." />
+
+README’de otomatik oynar. **Tıklama, replik ve ölülerin kalması için** [demo dosyasını](./docs/mascot.html) indirip tarayıcıda aç.
 
 <br />
 

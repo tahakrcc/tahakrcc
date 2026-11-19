@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TK — Böcek var!</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0e0f0e;color:#f1f0e9;font-family:Arial,sans-serif;min-height:100vh;display:grid;place-items:center;padding:24px}main{width:min(1200px,100%)}header{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:18px}h1{font-size:18px;margin:0}header span{color:#f4d326}button{border:1px solid #55574c;background:#1d1e1a;color:#f1f0e9;padding:10px 16px;border-radius:6px;cursor:pointer}button:focus-visible{outline:2px solid #f4d326}svg{display:block;width:100%;height:auto;overflow:hidden;border-radius:20px}footer{color:#b0b0a6;font-size:14px;line-height:1.6;margin-top:18px}#status{color:#f4d326}a{color:#f4d326}.leg{transform-box:fill-box;transform-origin:center}.walking .leg.a{animation:legs .12s ease-in-out infinite alternate}.walking .leg.b{animation:legs .12s ease-in-out infinite alternate-reverse}.walking .antennae{animation:feelers .8s ease-in-out infinite alternate;transform-origin:80px 0px}.dead .leg{transform:rotate(30deg) scaleY(.5)}.dead .antennae{opacity:.6;transform:rotate(8deg)}.dead{opacity:.65}.shocked .roach{filter:drop-shadow(0 0 8px #f4d326)}.shocked .leg{animation-duration:.045s}.live{cursor:pointer;outline:none}.live:focus-visible .focus-ring{opacity:1}.focus-ring{opacity:0}.zap{opacity:0}.shocked .zap{opacity:1;animation:spark .15s infinite alternate}@keyframes legs{to{transform:rotate(12deg) translateY(3px)}}@keyframes feelers{to{transform:rotate(5deg)}}@keyframes spark{to{opacity:.25}}@media(prefers-reduced-motion:reduce){.walking .leg,.walking .antennae,.shocked .zap{animation:none}}
+</style></head><body><main><header><h1><span>TK.</span> Böcek var!</h1><button id="reset" type="button">Sahneyi sıfırla</button></header>
+<svg id="stage" viewBox="0 0 1200 500" aria-label="TK logosuna yaklaşan, kod taşıyan hamamböceği; böceğe tıklayın." xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="shell" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#b66b32"/><stop offset=".35" stop-color="#6d3017"/><stop offset=".7" stop-color="#a25425"/><stop offset="1" stop-color="#30150e"/></linearGradient>
+<radialGradient id="thorax"><stop stop-color="#a65b2a"/><stop offset=".65" stop-color="#5b2916"/><stop offset="1" stop-color="#23120c"/></radialGradient>
+<filter id="bug-shadow" x="-40%" y="-60%" width="180%" height="220%"><feDropShadow dx="0" dy="3" stdDeviation="2" flood-opacity=".65"/></filter>
+<filter id="zapglow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<g id="roach-art" filter="url(#bug-shadow)">
+<g fill="none" stroke="#99542c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<g class="leg a"><path d="M57 -10 70 -25 87 -29 98 -37"/><path d="M74 -26 74 -31M82 -28 83 -33M89 -31 92 -31" stroke-width=".9"/></g>
+<g class="leg b"><path d="M37 -13 37 -30 19 -37 5 -42"/><path d="M31 -32 31 -37M22 -35 21 -40M14 -39 11 -36" stroke-width=".9"/></g>
+<g class="leg a"><path d="M19 -10 0 -22 -14 -30 -28 -31"/><path d="M-3 -24 -6 -20M-12 -29 -15 -25M-19 -30 -21 -35" stroke-width=".9"/></g>
+<g class="leg b"><path d="M57 10 70 25 87 29 98 37"/><path d="M74 26 74 31M82 28 83 33M89 31 92 31" stroke-width=".9"/></g>
+<g class="leg a"><path d="M37 13 37 30 19 37 5 42"/><path d="M31 32 31 37M22 35 21 40M14 39 11 36" stroke-width=".9"/></g>
+<g class="leg b"><path d="M19 10 0 22 -14 30 -28 31"/><path d="M-3 24 -6 20M-12 29 -15 25M-19 30 -21 35" stroke-width=".9"/></g>
+</g>
+<path d="M4 -5 -11 -9M4 5 -11 9" fill="none" stroke="#8d4c29" stroke-width="1.5"/>
+<ellipse cx="30" cy="0" rx="34" ry="18" fill="#3c1a0f" stroke="#ae6836" stroke-width=".7"/>
+<g fill="none" stroke="#a26032" stroke-width=".75" opacity=".55"><path d="M6 -9Q17 0 6 9M14 -14Q25 0 14 14M23 -16Q34 0 23 16M32 -17Q42 0 32 17M41 -15Q50 0 41 15"/></g>
+<path d="M4 -3Q20 -23 53 -14L60 -3Q32 2 5 10Z" fill="url(#shell)" stroke="#bb783d" stroke-width=".65"/>
+<path d="M4 3Q20 23 53 14L60 3Q32 -2 5 -10Z" fill="url(#shell)" stroke="#8f4d28" stroke-width=".65"/>
+<g fill="none" stroke="#e2a35c" stroke-opacity=".2" stroke-width=".55"><path d="M8 -2Q29 -12 51 -10M11 0Q33 -6 56 -6M10 5Q31 15 51 10M10 2Q31 8 56 6"/></g>
+<ellipse cx="60" cy="0" rx="14" ry="14" fill="url(#thorax)" stroke="#b87540" stroke-width=".6"/>
+<ellipse cx="60" cy="-5" rx="7" ry="3" fill="#dda460" opacity=".15"/>
+<path d="M70 -8Q82 -10 85 0Q82 10 70 8Z" fill="#4b2415" stroke="#ad6838" stroke-width=".65"/>
+<ellipse cx="78" cy="-6" rx="2.2" ry="3" fill="#120d09"/><ellipse cx="78" cy="6" rx="2.2" ry="3" fill="#120d09"/>
+<g class="antennae" fill="none" stroke="#b77c48" stroke-width=".85" stroke-linecap="round"><path d="M83 -4Q99 -25 127 -24T151 -37"/><path d="M83 4Q108 25 135 22T157 35"/></g>
+<path d="M84 -2 91 -3 92 0M84 2 90 4 91 1" fill="none" stroke="#c49b63" stroke-width="1"/>
+</g>
+</defs><rect width="1200" height="500" rx="20" fill="#161715"/><rect x="1" y="1" width="1198" height="498" rx="19" fill="none" stroke="#373833"/>
+<g font-family="Arial,sans-serif"><text x="52" y="60" fill="#f4d326" font-size="12" letter-spacing="3">TK / BUG ENCOUNTER</text><text x="49" y="130" fill="#f1f0e9" font-size="47" font-weight="800">Kodun bir böceği var.</text><text x="52" y="167" fill="#b0b0a6" font-size="17">Bu sefer gerçekten.</text></g>
+<path d="M40 435H1160M1130 90V435" fill="none" stroke="#38382e"/>
+<g id="tk-target" transform="translate(975 160) scale(3)" fill="#f4d326"><path d="M9 5h39l-7 8H27l-9 26H8l9-26H2z M28 16h9l-3 9 10-10h10L39 29l9 10H35l-5-7-2 7H20z"/></g><g id="bodies"></g><g id="actors"></g><g id="bubbles" pointer-events="none"></g>
+<text x="52" y="477" fill="#b0b0a6" font-family="Arial,sans-serif" font-size="13">Böceğe tıkla • Klavyeyle: Tab + Enter / Boşluk</text></svg>
+<footer><span id="status" role="status" aria-live="polite">Kod parçasını TK'ya taşıyor…</span><br>Ölü böcekler sahnede kalır. Ses yok; replik konuşma balonunda görünür. <a href="https://www.tahakaraca.com/">tahakaraca.com ↗</a></footer>
+</main>
+<script>
+"use strict";
+const NS="http://www.w3.org/2000/svg";
+const actors=document.getElementById("actors"),bodies=document.getElementById("bodies"),bubbles=document.getElementById("bubbles"),status=document.getElementById("status");
+const storageKey="tk-roach-scene-v1";
+let corpses=[],live=null,spawnTimer=null,shockTimer=null,runId=0;
+function svg(tag,attrs={},parent){const n=document.createElementNS(NS,tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,String(v));if(parent)parent.append(n);return n;}
+function save(){try{localStorage.setItem(storageKey,JSON.stringify(corpses));}catch{}}
+function drawBody(c){const g=svg("g",{class:"dead",transform:"translate("+c.x+" "+c.y+") rotate("+c.angle+")"},bodies);svg("use",{href:"#roach-art",transform:"scale(.72 -.72)"},g);}
+try{const data=JSON.parse(localStorage.getItem(storageKey)||"[]");if(Array.isArray(data))corpses=data.filter(c=>c&&Number.isFinite(c.x)&&Number.isFinite(c.y)&&Number.isFinite(c.angle)&&c.x>=30&&c.x<=1120&&c.y>=200&&c.y<=430);}catch{}
+corpses.forEach(drawBody);
+function point(t){
+ const route=[[72,405],[300,405],[680,405],[870,340],[960,263],[930,355],[740,405],[340,405],[72,405]];
+ const n=route.length-1,v=(t%1)*n,i=Math.floor(v),f=v-i,a=route[i],b=route[i+1];
+ return{x:a[0]+(b[0]-a[0])*f,y:a[1]+(b[1]-a[1])*f,angle:Math.atan2(b[1]-a[1],b[0]-a[0])*180/Math.PI};
+}
+function spawn(){
+ const token=++runId,g=svg("g",{class:"live walking",role:"button",tabindex:"0","aria-label":"Hamamböceğine dokun"},actors);
+ const orientation=svg("g",{},g);svg("ellipse",{class:"focus-ring",cx:36,cy:0,rx:110,ry:46,fill:"none",stroke:"#f4d326","stroke-width":2},orientation);
+ const roach=svg("g",{class:"roach"},orientation);svg("use",{href:"#roach-art",transform:"scale(.72)"},roach);
+ const chip=svg("g",{transform:"translate(86 5) rotate(12)"},orientation);svg("rect",{width:47,height:25,rx:4,fill:"#24251e",stroke:"#f4d326"},chip);const text=svg("text",{x:7,y:17,fill:"#f4d326","font-family":"monospace","font-size":15},chip);text.textContent="</>";
+ const zap=svg("path",{class:"zap",d:"M10 -36 25 -16 16 -6 39 9 29 25 46 39M51 -38 64 -16 54 -4 76 10 68 29",fill:"none",stroke:"#fff4a3","stroke-width":3,filter:"url(#zapglow)"},orientation);
+ live={g,orientation,chip,x:72,y:405,angle:0,phase:"alive",start:performance.now(),lastCycle:-1};
+ g.addEventListener("click",kill);
+ g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();kill();}});
+ function frame(now){
+ if(token!==runId||!live)return;
+ const elapsed=(now-live.start)/22000,p=point(elapsed),cycle=Math.floor(elapsed);
+ if(live.phase==="dying")return;
+ Object.assign(live,p);g.setAttribute("transform","translate("+p.x+" "+p.y+")");orientation.setAttribute("transform","rotate("+p.angle+")");
+ if(p.x>935&&p.y<290&&live.lastCycle!==cycle){live.lastCycle=cycle;live.phase="shocked";g.classList.add("shocked");status.textContent="TK'ya dokundu. Elektriklendi!";
+ clearTimeout(shockTimer);shockTimer=setTimeout(()=>{if(token===runId&&live&&live.phase!=="dying"){live.phase="alive";g.classList.remove("shocked");status.textContent="Kod taşımaya devam ediyor…";}},1400);}
+ requestAnimationFrame(frame);
+ }
+ requestAnimationFrame(frame);
+}
+function kill(){
+ if(!live||live.phase==="dying")return;
+ const current=live,token=runId;current.phase="dying";clearTimeout(shockTimer);current.g.classList.add("shocked");current.g.classList.remove("walking");current.g.setAttribute("aria-disabled","true");
+ const bx=Math.max(20,Math.min(780,current.x-130)),by=Math.max(180,current.y-134);
+ const bubble=svg("g",{transform:"translate("+bx+" "+by+")"},bubbles);
+ svg("rect",{width:395,height:92,rx:12,fill:"#f4d326"},bubble);
+ svg("path",{d:"M145 92l16 15 5-15",fill:"#f4d326"},bubble);
+ const lines=["lülülülüü duuktuuur","yok muuu duktuuurrr","adam ölüyoooo"];
+ lines.forEach((line,i)=>{const t=svg("text",{x:18,y:26+i*25,fill:"#161715","font-family":"Arial,sans-serif","font-size":19,"font-weight":700},bubble);t.textContent=line;});
+ status.textContent=lines.join(" ");
+ spawnTimer=setTimeout(()=>{
+ if(token!==runId)return;
+ const c={x:current.x,y:current.y,angle:current.angle+13};corpses.push(c);drawBody(c);save();current.g.remove();live=null;
+ status.textContent="Ölüsü kaldı. Yeni böcek geliyor…";
+ spawnTimer=setTimeout(()=>{if(token!==runId)return;spawn();status.textContent="Yeni böcek kodu devraldı. Sahnede "+corpses.length+" ölü böcek var.";},900);
+ },1500);
+ setTimeout(()=>bubble.remove(),6500);
+}
+document.getElementById("reset").addEventListener("click",()=>{runId++;clearTimeout(spawnTimer);clearTimeout(shockTimer);actors.replaceChildren();bodies.replaceChildren();bubbles.replaceChildren();corpses=[];save();live=null;status.textContent="Sahne temizlendi. Yeni böcek geliyor…";spawn();});
+spawn();
+</script></body></html>

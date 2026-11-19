@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+<title id="title">TK — There is a bug in the code.</title><desc id="desc">A cockroach carries a code fragment, touches TK, gets shocked and dies. A replacement arrives while the body remains. Automatic loop; interactive version is a separate HTML file.</desc>
+<style>.leg{transform-box:fill-box;transform-origin:center}.walking .leg.a{animation:legs .12s ease-in-out infinite alternate}.walking .leg.b{animation:legs .12s ease-in-out infinite alternate-reverse}.walking .antennae{animation:feelers .8s ease-in-out infinite alternate;transform-origin:80px 0px}.dead .leg{transform:rotate(30deg) scaleY(.5)}.dead .antennae{opacity:.6;transform:rotate(8deg)}.dead{opacity:.65}.shocked .roach{filter:drop-shadow(0 0 8px #f4d326)}.shocked .leg{animation-duration:.045s}.live{cursor:pointer;outline:none}.live:focus-visible .focus-ring{opacity:1}.focus-ring{opacity:0}.zap{opacity:0}.shocked .zap{opacity:1;animation:spark .15s infinite alternate}@keyframes legs{to{transform:rotate(12deg) translateY(3px)}}@keyframes feelers{to{transform:rotate(5deg)}}@keyframes spark{to{opacity:.25}}@media(prefers-reduced-motion:reduce){.walking .leg,.walking .antennae,.shocked .zap{animation:none}}</style><defs>
+<linearGradient id="shell" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#b66b32"/><stop offset=".35" stop-color="#6d3017"/><stop offset=".7" stop-color="#a25425"/><stop offset="1" stop-color="#30150e"/></linearGradient>
+<radialGradient id="thorax"><stop stop-color="#a65b2a"/><stop offset=".65" stop-color="#5b2916"/><stop offset="1" stop-color="#23120c"/></radialGradient>
+<filter id="bug-shadow" x="-40%" y="-60%" width="180%" height="220%"><feDropShadow dx="0" dy="3" stdDeviation="2" flood-opacity=".65"/></filter>
+<filter id="zapglow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<g id="roach-art" filter="url(#bug-shadow)">
+<g fill="none" stroke="#99542c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<g class="leg a"><path d="M57 -10 70 -25 87 -29 98 -37"/><path d="M74 -26 74 -31M82 -28 83 -33M89 -31 92 -31" stroke-width=".9"/></g>
+<g class="leg b"><path d="M37 -13 37 -30 19 -37 5 -42"/><path d="M31 -32 31 -37M22 -35 21 -40M14 -39 11 -36" stroke-width=".9"/></g>
+<g class="leg a"><path d="M19 -10 0 -22 -14 -30 -28 -31"/><path d="M-3 -24 -6 -20M-12 -29 -15 -25M-19 -30 -21 -35" stroke-width=".9"/></g>
+<g class="leg b"><path d="M57 10 70 25 87 29 98 37"/><path d="M74 26 74 31M82 28 83 33M89 31 92 31" stroke-width=".9"/></g>
+<g class="leg a"><path d="M37 13 37 30 19 37 5 42"/><path d="M31 32 31 37M22 35 21 40M14 39 11 36" stroke-width=".9"/></g>
+<g class="leg b"><path d="M19 10 0 22 -14 30 -28 31"/><path d="M-3 24 -6 20M-12 29 -15 25M-19 30 -21 35" stroke-width=".9"/></g>
+</g>
+<path d="M4 -5 -11 -9M4 5 -11 9" fill="none" stroke="#8d4c29" stroke-width="1.5"/>
+<ellipse cx="30" cy="0" rx="34" ry="18" fill="#3c1a0f" stroke="#ae6836" stroke-width=".7"/>
+<g fill="none" stroke="#a26032" stroke-width=".75" opacity=".55"><path d="M6 -9Q17 0 6 9M14 -14Q25 0 14 14M23 -16Q34 0 23 16M32 -17Q42 0 32 17M41 -15Q50 0 41 15"/></g>
+<path d="M4 -3Q20 -23 53 -14L60 -3Q32 2 5 10Z" fill="url(#shell)" stroke="#bb783d" stroke-width=".65"/>
+<path d="M4 3Q20 23 53 14L60 3Q32 -2 5 -10Z" fill="url(#shell)" stroke="#8f4d28" stroke-width=".65"/>
+<g fill="none" stroke="#e2a35c" stroke-opacity=".2" stroke-width=".55"><path d="M8 -2Q29 -12 51 -10M11 0Q33 -6 56 -6M10 5Q31 15 51 10M10 2Q31 8 56 6"/></g>
+<ellipse cx="60" cy="0" rx="14" ry="14" fill="url(#thorax)" stroke="#b87540" stroke-width=".6"/>
+<ellipse cx="60" cy="-5" rx="7" ry="3" fill="#dda460" opacity=".15"/>
+<path d="M70 -8Q82 -10 85 0Q82 10 70 8Z" fill="#4b2415" stroke="#ad6838" stroke-width=".65"/>
+<ellipse cx="78" cy="-6" rx="2.2" ry="3" fill="#120d09"/><ellipse cx="78" cy="6" rx="2.2" ry="3" fill="#120d09"/>
+<g class="antennae" fill="none" stroke="#b77c48" stroke-width=".85" stroke-linecap="round"><path d="M83 -4Q99 -25 127 -24T151 -37"/><path d="M83 4Q108 25 135 22T157 35"/></g>
+<path d="M84 -2 91 -3 92 0M84 2 90 4 91 1" fill="none" stroke="#c49b63" stroke-width="1"/>
+</g>
+</defs>
+<rect width="1200" height="500" rx="20" fill="#161715"/><rect x="1" y="1" width="1198" height="498" rx="19" fill="none" stroke="#373833"/>
+<g font-family="Arial,sans-serif"><text x="52" y="60" fill="#f4d326" font-size="12" letter-spacing="3">TK / BUG ENCOUNTER</text><text x="49" y="130" fill="#f1f0e9" font-size="47" font-weight="800">There is a bug in the code.</text><text x="52" y="167" fill="#b0b0a6" font-size="17">Literally, this time.</text></g>
+<path d="M40 435H1160M1130 90V435" fill="none" stroke="#38382e"/>
+<g id="tk-target" transform="translate(975 160) scale(3)" fill="#f4d326"><path d="M9 5h39l-7 8H27l-9 26H8l9-26H2z M28 16h9l-3 9 10-10h10L39 29l9 10H35l-5-7-2 7H20z"/></g>
+<g opacity="0" transform="translate(960 263) rotate(13)" class="dead"><use href="#roach-art" transform="scale(.72 -.72)"/><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.54;.55;.99;1" dur="20s" repeatCount="indefinite"/></g>
+<g class="walking"><animateMotion path="M72 405L680 405 870 340 960 263" keyPoints="0;1;1;1" keyTimes="0;.4;.54;1" calcMode="linear" dur="20s" repeatCount="indefinite"/>
+<g><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.54;.55;1" dur="20s" repeatCount="indefinite"/>
+<use href="#roach-art" transform="scale(.72)"/>
+<rect x="86" y="5" width="47" height="25" rx="4" fill="#24251e" stroke="#f4d326"/><text x="93" y="22" fill="#f4d326" font-family="monospace" font-size="15">&lt;/&gt;</text>
+<path d="M10 -36 25 -16 16 -6 39 9 29 25 46 39M51 -38 64 -16 54 -4 76 10 68 29" fill="none" stroke="#fff4a3" stroke-width="3" filter="url(#zapglow)" opacity="0"><animate attributeName="opacity" values="0;0;1;.2;1;0;0" keyTimes="0;.4;.405;.45;.5;.55;1" dur="20s" repeatCount="indefinite"/></path>
+</g></g>
+<g transform="translate(675 45)" opacity="0"><rect width="405" height="100" rx="12" fill="#f4d326"/><g fill="#161715" font-family="Arial,sans-serif" font-size="20" font-weight="700"><text x="18" y="28">lülülülüü duuktuuur</text><text x="18" y="55">yok muuu duktuuurrr</text><text x="18" y="82">adam ölüyoooo</text></g><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.44;.45;.64;.66;1" dur="20s" repeatCount="indefinite"/></g>
+<g class="walking" opacity="0"><animateMotion path="M65 405L600 405 840 365" keyPoints="0;0;1;1" keyTimes="0;.66;.94;1" calcMode="linear" dur="20s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.65;.66;1" dur="20s" repeatCount="indefinite"/><use href="#roach-art" transform="scale(.72)"/><rect x="86" y="5" width="47" height="25" rx="4" fill="#24251e" stroke="#f4d326"/><text x="93" y="22" fill="#f4d326" font-family="monospace" font-size="15">&lt;/&gt;</text></g>
+<text x="52" y="477" fill="#b0b0a6" font-family="Arial,sans-serif" font-size="13">TK / AUTOMATIC SCENE · Interactive version: mascot.html</text>
+</svg>
