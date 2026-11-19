@@ -3,7 +3,7 @@
   <a href="./README.en.md"><img src="https://img.shields.io/badge/EN-English-f4d326?style=for-the-badge&amp;labelColor=161715" alt="English — selected" /></a>
 </p>
 
-<img src="./assets/tk-profile-roam-v2.svg" width="100%" alt="Taha Göktuğ Karaca — TK. Mobile, web and AI developer. React Native, Expo, Flutter, Java, Spring Boot, Python, Docker. Animated cockroach travels across the profile." />
+<img src="./assets/tk-profile-contact-v3.svg" width="100%" alt="Taha Göktuğ Karaca — TK. Mobile, web and AI developer. React Native, Expo, Flutter, Java, Spring Boot, Python, Docker. Animated cockroach travels across the profile." />
 
 <p align="center">
   <a href="https://www.tahakaraca.com/"><img src="https://img.shields.io/badge/PORTFOLIO-TAHAKARACA.COM-f4d326?style=for-the-badge&amp;labelColor=161715&amp;logoColor=f1f0e9" alt="Portfolio — tahakaraca.com" /></a>
